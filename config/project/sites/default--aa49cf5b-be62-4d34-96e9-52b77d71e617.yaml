@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: animeblog
+primary: true
+siteGroup: 1a1efa50-3852-489e-a2a5-96a1e566a5ab # animeblog
+sortOrder: 1

@@ -1,0 +1,16 @@
+<div class="slider">
+	<div class="slider__nav">
+	<button type="button" class="slider__prev">
+		<img src="./static/images/arrow-prev.svg" alt="Previous">
+	</button>
+	<button type="button" class="slider__next">
+		<img src="./static/images/arrow-next.svg" alt="Next">
+	</button>
+	</div>
+	
+	<div class="slider__reel">
+	{% for photo in photos %}
+		<img src="{{photo.url}}" alt="{{photo.title}}" class="slider__image">
+	{% endfor %}
+	</div>
+</div>

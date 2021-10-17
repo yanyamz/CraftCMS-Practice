@@ -1,0 +1,19 @@
+columnSuffix: vnkunrna
+contentColumnType: text
+fieldGroup: 5dcc4492-44cb-41c4-ae05-b3ddf1a3a30e # homepage
+handle: heroTitle
+instructions: ''
+name: 'Hero Title'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

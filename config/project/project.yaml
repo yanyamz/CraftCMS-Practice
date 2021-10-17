@@ -1,0 +1,44 @@
+dateModified: 1634438406
+email:
+  fromEmail: hello.anthony9898@gmail.com
+  fromName: animeblog
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    1a1efa50-3852-489e-a2a5-96a1e566a5ab: animeblog # animeblog
+    3f3219a0-1e7d-4d73-a8c1-fd45a7ac7925: 'Hero Title' # Hero Title
+    5dcc4492-44cb-41c4-ae05-b3ddf1a3a30e: homepage # homepage
+    7c6b5301-0488-4387-aa01-f7647b06adb7: 'Full Name' # Full Name
+    24fe3dda-887d-4ed5-abe1-b81d2fbe3747: Home # Home
+    406b8fbd-0fdb-4b7e-8c1c-5dc5169b1953: rider # rider
+    615d6b30-3f80-4bbb-9001-2b6a837b5799: Uploads # Uploads
+    964b9a3d-09e2-4e5a-b37c-1bc6395ba105: Stories # Stories
+    5936f467-efca-4f59-948d-2e3ff52c974e: Photo # Photo
+    a56ee105-79cd-4eb6-8bc3-802eeaf7c2e0: 'Hero Image' # Hero Image
+    a417ce34-1516-4242-b7d0-5c5a63e432e2: Riders # Riders
+    aa49cf5b-be62-4d34-96e9-52b77d71e617: animeblog # animeblog
+    b7baa9f4-57bc-4de9-ad3a-951758a852d2: Description # Description
+    bd41ba20-0388-4350-a211-f8956fbf7921: Photos # Photos
+    c87ea9bd-d993-49b2-9ac3-0bf447777d31: Common # Common
+    c337d612-1deb-4856-b489-593168a9643d: 'Riders Intro Content' # Riders Intro Content
+    da1f07bf-dadf-4d8f-85ae-fdfe6802153c: Stories # Stories
+    e38fb9e8-1b1d-43f0-aca3-4cc03cd85746: Home # Home
+    fad95888-3dac-4915-8db4-bfc4c17e3ded: 'Rich Text' # Rich Text
+    fb72fff4-9634-45aa-b76b-2869ffa33a4b: 'Short Description' # Short Description
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: animeblog
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
