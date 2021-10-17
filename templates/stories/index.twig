@@ -1,14 +1,13 @@
 {% extends "index" %}
 
+{% set body_classes = 'inner-page' %}
+
 {% block content %}
 
 	{% set stories = craft.entries.section('stories').all() %}
     <section class="section">
       <div class="content-column">
-
-	  
-	  
-	    <h1 class="centered">bby g's</h1>
+	    <h1 class="centered">{{entry.title}}</h1>
         <div class="two-columns">
 			{% for story in stories %}
 			{% set photo = story.photos.one() %}
